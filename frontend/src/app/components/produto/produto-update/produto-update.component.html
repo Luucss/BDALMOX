@@ -1,0 +1,24 @@
+<!-- <mat-card> -->
+    <!-- <mat-card-title></mat-card-title> -->
+    <form>
+        <mat-form-field>
+           <input matInput placeholder="Digitar o Codigo" [(ngModel)]="produto.codigo" name="codigo"> 
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Digitar o Nome" [(ngModel)]="produto.name" name="name">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Digitar a quantidade" [(ngModel)]="produto.quantidade" name="quantidade">
+        </mat-form-field>
+    </form>
+<!-- </mat-card> -->
+
+<button mat-raised-button (click)="updateProduto()" color="accent">
+    Salvar
+</button>
+
+<button mat-raised-button (click)="cancel()" color="accent">
+    Cancelar
+</button>

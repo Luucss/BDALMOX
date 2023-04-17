@@ -1,0 +1,10 @@
+{
+  "produtos": [
+    {
+      "codigo": "1",
+      "name": "Lapiseira",
+      "quantidade": "20",
+      "id": 3
+    }
+  ]
+}
